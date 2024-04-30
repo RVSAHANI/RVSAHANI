@@ -21,7 +21,7 @@ public void user_should_be_on_login_page() {
 	driver = new ChromeDriver();
 	driver.get("http://localhost:100");
 	driver.manage().timeouts().implicitlyWait(Duration.ofMillis(2000));
-	
+	driver.manage().window().maximize();
     lp = new LoginPage(driver);
 	
 }
