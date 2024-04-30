@@ -78,8 +78,8 @@ public class BaseDefination {
      {
     	 try
     	 {
-    	 Fillo fillo = new Fillo();
-    	 Connection connection = fillo.getConnection(file);   	 
+    	// Fillo fillo = new Fillo();
+    	/// Connection connection = fillo.getConnection(file);   	 
     	 
     	 
     	 }
